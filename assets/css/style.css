@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Karla", sans-serif;
   color: #444;
 }
 
@@ -24,7 +24,11 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
-  font-family: "Roboto", sans-serif;
+  font-family: "Karla", sans-serif;
+}
+
+h2 {
+  text-decoration: bold;
 }
 
 /*--------------------------------------------------------------
@@ -37,7 +41,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #68A4C4;
+  background: #FFD978;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -51,7 +55,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .back-to-top:hover {
-  background: #85b6cf;
+  background: #FFE998;
   color: #fff;
 }
 
@@ -68,7 +72,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #1e4356;
+  background: #ffffff;
 }
 
 #header.header-transparent {
@@ -76,7 +80,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled {
-  background: rgba(30, 67, 86, 0.8);
+  background: rgba(244, 181, 181, 0.9);
   height: 60px;
 }
 
@@ -132,7 +136,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 14px;
   color: #fff;
   white-space: nowrap;
@@ -146,7 +150,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #a2cce3;
+  color: #FCE3E3;
 }
 
 .navbar .dropdown ul {
@@ -472,7 +476,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(244, 181, 181, 0.4), rgba(244, 181, 181, 0.6)), url("../img/hero-pantone.jpeg") center top no-repeat;
 }
 
 #hero-no-slider h2 {
@@ -781,7 +785,7 @@ section {
 /*.why-us*/ .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#68A4C4 50%, rgba(104, 164, 196, 0.4) 52%);
+  background: radial-gradient(#F4B5B5 50%, rgba(104, 164, 196, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -829,7 +833,7 @@ section {
 }
 
 /*.why-us*/ .play-btn:hover::after {
-  border-left: 15px solid #68A4C4;
+  border-left: 15px solid #F4B5B5;
   transform: scale(20);
 }
 
@@ -2133,7 +2137,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0b212d;
+  background: #486877;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
