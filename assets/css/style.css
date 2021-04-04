@@ -72,7 +72,7 @@ h2 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(244, 181, 181, 0.8);
+  background: rgba(239, 149, 149, 0.9);
 }
 
 #header.header-transparent {
@@ -80,7 +80,7 @@ h2 {
 }
 
 #header.header-scrolled {
-  background: rgba(244, 181, 181, 0.9);
+  background: rgba(239, 149, 149, 0.8);
   height: 60px;
 }
 
@@ -106,7 +106,7 @@ h2 {
 }
 
 #main {
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 /*--------------------------------------------------------------
@@ -2312,4 +2312,8 @@ section {
 
 #footer .credits a {
   color: #a2cce3;
+}
+
+.center {
+  align-items: center;
 }
