@@ -72,7 +72,7 @@ h2 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #ffffff;
+  background: rgba(244, 181, 181, 0.8);
 }
 
 #header.header-transparent {
@@ -984,6 +984,10 @@ section {
   width: 1px;
   text-align: left;
   transition: .9s;
+}
+
+#references {
+  text-align: left;
 }
 
 /*--------------------------------------------------------------
