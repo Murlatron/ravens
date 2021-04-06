@@ -38,8 +38,8 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center ">
+    <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-between align-items-center">
 
       <div class="logo">
@@ -51,38 +51,14 @@
       <nav id="navbar" class="navbar">
         <ul>
 
-              <li class="dropdown"><a href="index.html"><span>Home</span> <i class="bi bi-chevron-right"></i></a>
-             <ul>
-              <li><a href="index.html#details">Made by everyone, for everyone</a></li>
-              <li><a href="index.html#research">How it Works</a></li>
-             </ul>
-            </li>
-
+              
+          <li><a href="index.html">Home</a></li>
+          <li><a href="network.html">Network</a></li>
           <li><a href="node.html">Node</a></li>
           <li><a href="community.html">Community</a></li>
           <li><a href="team.html">Team</a></li>
           <li><a href="references.html">References</a></li>
-
-<!--           <li><a href="blog.html">Blog</a></li>
- --><!--           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a> -->
-<!--            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul> -->
-          <!-- </li>
-          <li><a href="contact.html">Contact Us</a></li> -->
-      	   
+           
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -107,13 +83,59 @@
       </div>
     </section><!-- End Our Team Section -->
 
+<section class="why-us section-bg" id="details">
+      <div class="container align-items-center" data-aos="fade-up" date-aos-delay="200">
+         <div class="section-title">
+          <h2>Your gateway to Ariadne</h2>
+          <p>A Node is a piece of hardware that allows you to connect to the Ariadne network. Every Node is assembled and cared for by a user and operates through similar technology that adhere to Ariadne standards. Every specification for a Node is listed in the <a href="community.html">Ariadne Library</a> alongside tutorials and schematics.
+          </p>
+          <br>
+          <p>The best part about the Node is that most of the components, if not all, can be attained through recycled materials found at your local e-waster center. By building your own Node, you can combat e-waste, learn about electronics, a connect to Ariadne in whatever way suits you best.</p>
+        </div>
+
+        <div class="row">
+          <!-- <div class="col-lg-1">
+             <img src="assets/img/router-watch.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-3">
+             <img src="assets/img/router-front.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-2">
+             <img src="assets/img/router-necklace.png" class="img-fluid" alt="">
+          </div> -->
+
+          <div class="col-lg-6">
+            <img src="assets/img/router-forms.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-fingerprint"></i></div>
+              <h4 class="title"><a href="community.html">Setting Up</a></h4>
+              <p class="description"> As part of Ariadne’s open-source ethos, there is a library of tutorials and schematics available to help you repurpose common electronics found at your local e-waste center.</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-gift"></i></div>
+              <h4 class="title"><a href="community.html">A helping hand</a></h4>
+              <p class="description"> If you need any help getting your Node together, the Ariadne online forum is filled with an enthusiastic community of users that are happy to get you started.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
 <!-- ======= Features Section ======= -->
-    <section id="node" class="features">
+    <section id="node">
       <div class="container">
 
-        <div class="section-title">
-          <h2>The Node</h2>
-          <p>Every Node is cared for by an individual like you and operates through similar technology. The hardware itself can be changed depending on a user's needs, but all nodes are composed of three major components simply named: the <b>power</b>, the <b>panel</b>, and the <b>ping</b>.</p>
+        <div class="section-title" >
+          <h2>Dedicated Components</h2>
+          <p>Although the overall hardware can be modified depending on a user's needs, all nodes require three major components, simply named:
+            <br>
+            the <b>power</b>, the <b>panel</b>, and the <b>ping</b>.</p>
         </div>
 
         <div class="row" data-aos="fade-up">
@@ -123,20 +145,24 @@
           <div class="col-md-7 pt-4">
             <h3>Power</h3>
             <p class="font-italic">
-              A battery that makes sure your Node stays running. It's recommended that a Node is powered by a reliable and portable solid-state battery.
+              A battery that makes sure your Node stays running. It's recommended that a Node is powered by a lightweight and reliable solid-state battery. Ariadne runs on <a href="references.html#">Low-Power Long-Range (LPLR) technology</a> which means that a even the smallest battery can provide longlasting connection.
+            </p>
+            <p>
+              It's important to note that received signals produce a tiny bit of energy that can be stored in your Node. Since Ariadne consumes so little energy, it is possible to power your Node from incoming signals. Staying close to other nodes means more received signals and in turn, a Node powered by your community.
             </p>
           </div>
         </div>
 
         <div class="row" data-aos="fade-up">
           <div class="col-md-5">
-            <img src="assets/img/router-front.svg" class="img-fluid" alt="">
+            <img src="assets/img/router-interface.png" class="img-fluid" alt="">
           </div>
-          <div class="col-md-7 pt-5 order-2 order-md-1">
+          <div class="col-md-7 pt-5">
             <h3>Panel</h3>
             <p class="font-italic">
-              A simple interface allows you to interact with your Node. It relays important information like battery status and nearby Nodes.
+              A simple interface allows you to interact with your Node. It relays important information like battery status and nearby Nodes. The aesthetics of this interface can be customised to suit each user's needs. You also have the choice to use one of the many user-submitted templates found in the <a href="community.html">Ariadne Forum</a>.
             </p>
+            
           </div>
         </div>
 
@@ -144,9 +170,10 @@
           <div class="col-md-5">
             <img src="assets/img/router-side.svg" class="img-fluid" alt="">
           </div>
-          <div class="col-md-7 pt-5">
+          <div class="col-md-7 pt-6">
             <h3>Ping</h3>
             <p>A communication router handles all incoming and outgoing information, and processes it to ensure that it goes to the right place. If an incoming message is for you, it routes it to your connected WiFi-enabled device. If it’s not, then the message is sent to other nearby nodes to continue its journey to the right place.</p>
+            <p>Ariadne Nodes transmit and receive sub-GHz frequencies. This allows for the use of LPLR while avoiding interference with other short-range frequency-bands like conventional WiFi and Bluetooth (2.4GHz).</p>
 <!--             <ul>
               <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
               <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
